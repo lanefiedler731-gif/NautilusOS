@@ -50,7 +50,7 @@
             boot
         </div>
         <div id="bottom-text" style="position: absolute; bottom: 0.5rem; color: #888;">
-            made with <i class="fa-solid fa-heart"></i> by dinguschan
+            made by Dillard High School
         </div>
         <div class="boot-loading" id="bootLoading">
             <div class="loading-bar-container">
@@ -380,7 +380,7 @@
         <div class="wallpaper">
             <i class="fas fa-fish wallpaper-icon"></i>
             <div class="wallpaper-text">NautilusOS</div>
-            <p class="wallpaper-byline">by dinguschan</p>
+            <p class="wallpaper-byline">by Dillard High School</p>
         </div>
 
         <div class="desktop-icons" id="desktopIcons">
@@ -482,12 +482,6 @@
                     <h3 id="displayUsername">User</h3>
                     <p>Standard User</p>
                 </div>
-                <button class="start-signout-btn"
-                    onclick="window.open('https://github.com/nautilus-os/NautilusOS', '_blank')"
-                    title="GitHub Repository"
-                    style="background: rgba(125, 211, 192, 0.15); border-color: rgba(125, 211, 192, 0.3); color: var(--accent);">
-                    <i class="fab fa-github"></i>
-                </button>
                 <button class="start-signout-btn" onclick="signOutToLogin()" title="Sign Out"
                     style="background: rgba(125, 211, 192, 0.15); border-color: rgba(125, 211, 192, 0.3); color: var(--accent);">
                     <i class="fas fa-sign-out-alt"></i> <span>Sign Out</span>
@@ -577,14 +571,6 @@
             <div class="quick-action-content">
                 <div class="quick-action-title">Close All</div>
                 <div class="quick-action-desc">Close all windows</div>
-            </div>
-        </div>
-        <div class="quick-action-item"
-            onclick="hideQuickActions(); const link = document.createElement('a'); link.href = 'https://raw.githubusercontent.com/nautilus-os/NautilusOS/refs/heads/main/NautilusOS-OneFile/index.html'; link.download = 'NautilusOS-OneFile.html'; link.click();">
-            <i class="fas fa-download"></i>
-            <div class="quick-action-content">
-                <div class="quick-action-title">Get OneFile</div>
-                <div class="quick-action-desc">Download standalone version</div>
             </div>
         </div>
         <div class="quick-action-item" onclick="hideQuickActions(); signOutToLogin()">
